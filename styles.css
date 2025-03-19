@@ -6,6 +6,8 @@ body {
     width: 100%;
     margin: 0;
     background-color: #c1af9a;
+    display: flex;
+    gap: 1rem;
 }
 
 .hero-left {
@@ -13,4 +15,12 @@ body {
     background-size: cover;
     width: 30%;
     height: 100vh;
+}
+
+.form-right {
+    width: 70%;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
