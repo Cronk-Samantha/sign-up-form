@@ -23,4 +23,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1.5rem;
+}
+
+.title > h3 {
+    color: #5c4033;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0 1rem;
 }
